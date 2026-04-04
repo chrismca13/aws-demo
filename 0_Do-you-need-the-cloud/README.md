@@ -9,7 +9,7 @@ I think AWS is the best way to share data among your team. Here we'll discuss so
 ```python
 import pandas as pd
 
-df.to_csv("s3://capstone-project-mcallister/team_edited.csv", index=False)
+df.to_csv("s3://capstone-project-mcallister/teams.csv", index=False)
 ```
 * Sharing data among your team is very straightforward, pulling data down also only requires one line of code:
 
