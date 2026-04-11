@@ -3,6 +3,18 @@ Here we'll discuss some benefits and tradeoffs of using a Cloud Service Provider
 
 I think AWS is the best way to share data among your team. Here we'll discuss some benefits doing so, while also acknowledging some tradeoffs of using AWS for your project. 
 
+### What is S3?
+S3 is AWS's file storage solution. S3 stands for "Scalable Storage Solution," you can kind of think of it as a giant file storage system (like Finder on Mac or File Explorer on Window).
+
+However, the main benefit here is that you can easily share the file storage solution among your teammates, see more below. 
+
+### Tradeoff of the Cloud
+**You can rack up a bill.**
+* Using AWS is NOT required for this course. The University of Michigan, the MADS program, or your instructors are NOT responsible for any fees / bills you incur in AWS.
+* With that said, S3 storage is incredibly cheap. As of April 2026, they're only charging $0.023 per GB of data per month that you store in S3. 
+    - At this price it would be very difficult to spend more than $5 throughout the capstone project, but it's something to be aware of.
+* Check current pricing at https://aws.amazon.com/s3/pricing/
+
 ### Benefits of the cloud
 * After you set it up, saving data in AWS S3 is very easy. You can easily backup data with one line of code:
 
@@ -11,7 +23,7 @@ import pandas as pd
 
 df.to_csv("s3://capstone-project-mcallister/teams.csv", index=False)
 ```
-* Sharing data among your team is very straightforward, pulling data down also only requires one line of code:
+* Sharing data among your team is also very straightforward, pulling data down also only requires one line of code:
 
 ```python
 import pandas as pd
@@ -58,15 +70,17 @@ import pickle
 import boto3
 
 # Save model locally to disk
-pickle.dump(clf, open('dummy_classifier.pkl', 'wb'))
+pickle.dump(clf, open('dummy_classifier_local_copy.pkl', 'wb'))
 
 # Upload to S3
 s3_client = boto3.client('s3')
 s3_client.upload_file(
-    'dummy_classifier.pkl',
-    'capstone-project-mcallister',
-    'dummy_classifier.pkl'
+    'dummy_classifier_local_copy.pkl', # Name of model object in local file system
+    'capstone-project-mcallister',     # Name of folder in S3
+    'dummy_classifier.pkl'             # What you want the file named in S3
 )
+
+print("Dummy classifier saved to S3!")
 ```
 
 * Like with datasets, anyone on your team with access to the S3 bucket can read in this trained model object now:
@@ -90,12 +104,7 @@ model_buffer = io.BytesIO(response['Body'].read())
 clf = pickle.load(model_buffer)
 ```
 
-### Tradeoffs of using the Cloud:
-**You can rack up a bill.**
-* Using AWS is NOT required for this course. The University of Michigan, the MADS program, and your instructors are NOT responsible for any fees / bills you incur in AWS.
-* With that said, S3 storage is incredibly cheap. As of April 2026, they're only charging $0.023 per GB of data per month that you store in S3. 
-    - At this price it would be very difficult to spend more than $5 throughout the capstone project, but it's something to be aware of.
-* Check current pricing at https://aws.amazon.com/s3/pricing/
+### Another tradeoff of using the Cloud:
 
 **It takes time to set up.**
 * We'll cover it in the next module, but setting up your team in AWS takes some effort (like 30 minutes max). 
