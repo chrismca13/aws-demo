@@ -1,5 +1,5 @@
-## SIADS 699: Setting up Access
-Now that the Root User role is set up, you can create Access roles for everyone 
+## SIADS 699: Setting up Admin Access
+Now that the Root User role is set up, you can create an admin role for you to work out of. 
 
 ### Setting up an Admin Role
 It's a best practice to stay out of the root user role when possible. The first thing you should do is create an `admin-role` by doing the following:
