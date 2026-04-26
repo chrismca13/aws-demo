@@ -109,7 +109,7 @@ clf = pickle.load(model_buffer)
 ### Another tradeoff of using the Cloud:
 
 **It takes time to set up.**
-* We'll cover it in the next module, but setting up your team in AWS takes some effort (around 40 minutes max). 
+* We'll cover it in the next module, but setting up your team in AWS takes some effort (around 40 minutes). 
 
 --
 Being comfortable in the cloud is a good skill for any data scientist - if nothing else this is a great reason to use AWS in your project workflow. If this feels worth it to you, head to the second module!
