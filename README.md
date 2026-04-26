@@ -11,7 +11,7 @@ I think AWS is the best way to share data among your team. Here we'll discuss so
 - Module 2: [Setting up the Admin Role](https://github.com/chrismca13/aws-demo/tree/main/2_setting_up_the_admin_role#siads-699---module-2-setting-up-admin-access)
 - Module 3: [Setting up the Team Accounts](https://github.com/chrismca13/aws-demo/tree/main/3_setting_team_accounts#siads-699---module-3-setting-up-admin-access)
 - Module 4: [Accessing S3 from VS Code ](https://github.com/chrismca13/aws-demo/tree/main/4_accessing_S3_from_VS_code)
-- Module 5: Setting up Spending Threshold Alerting. 
+- Module 5: [Setting up Spending Threshold Alerting ](https://github.com/chrismca13/aws-demo/tree/main/5_setting_up_spend_alerting)
 
 
 After your complete the steps above, your team will be able to write and read from the cloud with a single line of code like this:
