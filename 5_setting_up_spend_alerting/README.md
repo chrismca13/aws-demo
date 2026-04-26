@@ -23,7 +23,9 @@ Like we said before, AWS is not required for this course and your instructors, t
 9. Click the `Edit` button in the top right corner. 
 10. Here you can customize to make sure you get alerted to whatever dollar amount your comfortable with. If you're only using AWS for data storage in S3, this is a good set up unders `Set budget amount`
 - This will send you an email if you ever spend more than $.05 on a day:
+
 ![alt text](images/budget-amount.png)
+
 11. Leave the other setting as is, scroll to the bottom, and click the orange `Next` button. 
 12. Optionally, you can set additional alterting here that will give you an email if you start to approach the threshold you set in step 10. 
 13. Next you can set up a budget action, I recommend skipping this for now and clicking `Next`

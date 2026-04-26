@@ -44,8 +44,12 @@ import pandas as pd
 df = pd.read_csv("s3://umich-capstone-project/data.csv")
 ```
 
+The (optional but recommended) [5th module](https://github.com/chrismca13/aws-demo/tree/main/5_setting_up_spend_alerting) will show you how to set up budget alerts to make sure you're not spending money you don't intend to. 
+
+### Final Thoughts
 If you have any questions or feedback please post them in the SIADS 699 channel or DM me (Chris McAllister) and we'll help get things sorted out. 
 
 If this was interesting to you at all and you'd like to know more about the cloud, a good way to learn more is by obtaining [AWS Certifications.](https://aws.amazon.com/certification/)
 
 The `Certificed Cloud Practioner` --> `AWS Certified Machine Learning Engineer` --> `Certified Data Engineer` is a great path to focus on after you complete the MADS program. Good luck!
+
