@@ -1,12 +1,12 @@
-## SIADS 699: Is using AWS worth the effort?
+## SIADS 699 - Modeule 0: Is using AWS worth the effort?
 Here we'll discuss some benefits and tradeoffs of using a Cloud Service Provider (like AWS). One challenge a lot of teams encounter in their capstone project is sharing data. In the past we've seen teams send CSVs via slack, upload massive files to git, and some store their data in Google Drive. 
 
 I think AWS is the best way to share data among your team. Here we'll discuss some benefits doing so, while also acknowledging some tradeoffs of using AWS for your project. 
 
-If you are intersted in reading and writing files to the cloud while working in your local VS Code then this setup is for you. 
+**If you are interested in reading and writing files to the cloud while working in your local VS Code then this setup is for you.**
 
 ### What is S3?
-S3 is AWS's file storage solution. S3 stands for "Scalable Storage Solution," you can kind of think of it as a giant file storage system (like Finder on Mac or File Explorer on Window).
+S3 is AWS's file storage solution. S3 stands for "Scalable Storage Solution," you can kind of think of it as a giant file storage system (like Finder on Mac or File Explorer on Windows).
 
 However, the main benefit here is that you can easily share the file storage solution among your teammates, see more below. 
 
@@ -109,7 +109,7 @@ clf = pickle.load(model_buffer)
 ### Another tradeoff of using the Cloud:
 
 **It takes time to set up.**
-* We'll cover it in the next module, but setting up your team in AWS takes some effort (like 30 minutes max). 
+* We'll cover it in the next module, but setting up your team in AWS takes some effort (around 40 minutes max). 
 
 --
 Being comfortable in the cloud is a good skill for any data scientist - if nothing else this is a great reason to use AWS in your project workflow. If this feels worth it to you, head to the second module!

@@ -1,4 +1,4 @@
-## SIADS 699: Setting up Admin Access
+## SIADS 699 - Module 2: Setting up Admin Access
 Now that the Root User role is set up, you can create an admin role for you to work out of. 
 
 ### Setting up an Admin Role
