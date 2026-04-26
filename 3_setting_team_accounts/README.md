@@ -49,3 +49,6 @@ Now that you have your admin role ready we're going to create accounts for you a
 5. Fill in the `Command Line Interface (CLI)` bubble, check the box at the bottom, and click Next
 6. Give it a description, something like `admin_role_CLI_access`
 7. Download the access Key as a CSV, and keep it somewhere safe. We'll need it for our next step. 
+
+
+[In the final module](https://github.com/chrismca13/aws-demo/tree/main/4_accessing_S3_from_VS_code) we'll show you how to use these credentials to connect to AWS in your local VS Code environment. 

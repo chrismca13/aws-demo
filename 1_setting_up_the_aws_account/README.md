@@ -32,6 +32,6 @@ Also assuming this is your first time connecting AWS to your local VS code you'l
 9. Congrats! You have now successfully set up the root user role. 
 
 ### What's next
-In the next module we will:
+In the [next module](https://github.com/chrismca13/aws-demo/tree/main/2_setting_up_the_admin_role) we will:
 * Tell you how to set up an `admin` role for you to work from.
 * Talk through how to set up roles with limited access for your teammates.

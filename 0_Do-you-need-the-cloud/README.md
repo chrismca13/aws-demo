@@ -112,4 +112,4 @@ clf = pickle.load(model_buffer)
 * We'll cover it in the next module, but setting up your team in AWS takes some effort (around 40 minutes). 
 
 --
-Being comfortable in the cloud is a good skill for any data scientist - if nothing else this is a great reason to use AWS in your project workflow. If this feels worth it to you, head to the second module!
+Being comfortable in the cloud is a good skill for any data scientist - if nothing else this is a great reason to use AWS in your project workflow. If this feels worth it to you, head to [the second module](https://github.com/chrismca13/aws-demo/tree/main/1_setting_up_the_aws_account)!

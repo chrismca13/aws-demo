@@ -29,5 +29,5 @@ It's a best practice to stay out of the root user role when possible. The first 
 6. Sign in with your username and password (that you hopefully downloaded) and you're in!
 
 
-Next, we'll cover how to get access to S3 for you and your team so you all can easily save and share dataset. 
+[In the next module](https://github.com/chrismca13/aws-demo/tree/main/3_setting_team_accounts), we'll cover how to get access to S3 for you and your team so you all can easily save and share dataset. 
 
