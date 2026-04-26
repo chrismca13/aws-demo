@@ -1,4 +1,4 @@
-## SIADS 699 - Module 3: Setting up Admin Access
+## SIADS 699 - Module 3: Setting up your Team's Accounts
 Now that you have your admin role ready we're going to create accounts for you and your team. 
 
 ### Setting up your team's access group.

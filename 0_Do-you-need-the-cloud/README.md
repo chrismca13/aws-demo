@@ -1,9 +1,7 @@
-## SIADS 699 - Modeule 0: Is using AWS worth the effort?
-Here we'll discuss some benefits and tradeoffs of using a Cloud Service Provider (like AWS). One challenge a lot of teams encounter in their capstone project is sharing data. In the past we've seen teams send CSVs via slack, upload massive files to git, and some store their data in Google Drive. 
+## SIADS 699 - Module 0: Is using AWS worth the effort?
 
-I think AWS is the best way to share data among your team. Here we'll discuss some benefits doing so, while also acknowledging some tradeoffs of using AWS for your project. 
+### What is AWS?
 
-**If you are interested in reading and writing files to the cloud while working in your local VS Code then this setup is for you.**
 
 ### What is S3?
 S3 is AWS's file storage solution. S3 stands for "Scalable Storage Solution," you can kind of think of it as a giant file storage system (like Finder on Mac or File Explorer on Windows).

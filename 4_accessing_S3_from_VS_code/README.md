@@ -12,7 +12,7 @@ Now that your roles are created and you gave your team access to S3, you can rea
 # Default region name: us-east-2
 # Default output format: json
 ```
-- If this errored out, make sure you downloaded the `AWS CLI` package listed as a pre-requisite in module 1. 
+- If this errored out, make sure you downloaded the `AWS CLI` package [listed as a pre-requisite in module 1. ](https://github.com/chrismca13/aws-demo/blob/main/1_setting_up_the_aws_account/README.md#pre-requisites)
 
 3. Let's test the connection!
 
