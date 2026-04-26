@@ -4,6 +4,8 @@ One challenge a lot of teams encounter in their capstone project is sharing data
 
 I think AWS is the best way to share data among your team. Here we'll discuss some benefits of doing so, while also acknowledging some tradeoffs of using AWS for your project. 
 
+**Before you get started it's very important to mention that it's possible to rack up a bill in AWS. Using AWS is NOT required for this course. The University of Michigan, the MADS program, or your instructors are NOT responsible for any fees / bills you incur in AWS.**
+
 **If you are interested in reading and writing files to the cloud while working in your local VS Code then this setup is for you.**
 
 - Module 0: [Do You Need the Cloud?](https://github.com/chrismca13/aws-demo/tree/main/0_Do-you-need-the-cloud)
