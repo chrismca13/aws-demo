@@ -6,16 +6,17 @@ It's a best practice to stay out of the root user role when possible. The first 
 1. Search and click on `IAM` in the search bar at the top of the home page:
 ![alt text](images/iam.png)
 
-2. On the side panel on the left click `Users` and click `Create User`
+2. On the side panel on the left click `IAM Users` and click `Create User`
 ![alt text](images/create_user.png)
 
 3. Create a role named `admin-role`
 4. Click the `Create Group` button on the top right of the `User Groups` box.
-5. This will give you access to a bunch of pre-made access roles created by AWS. The one I recommend adding to your `admin-role` is called `AdministratorAccess`:
-![alt text](images/administrator-access.png)
+5. This will give you access to a bunch of pre-made access policies created by AWS. The one I recommend adding to your `admin-role` is called `AdministratorAccess` policy. Assing a name to the group too. In the example below I called it `admin`. The setup should look like what you see below. Click `Create User Group` when you're ready:
 
-6. Once you create the group check the box next to it and click the orange Next button.
-7. Click the Orange Create User on the next page. 
+![alt text](images/admin-access.png)
+
+6. Check the box next to your newly created `admin` group and click the orange next button:
+![alt text](images/create-group.png)
 
 ### Logging in to the Admin Role
 0. It's a best practice to only log in to the root-user when you really need to. Most of your work should be done in the admin role from here on out. 

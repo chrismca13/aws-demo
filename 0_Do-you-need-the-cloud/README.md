@@ -3,6 +3,8 @@ Here we'll discuss some benefits and tradeoffs of using a Cloud Service Provider
 
 I think AWS is the best way to share data among your team. Here we'll discuss some benefits doing so, while also acknowledging some tradeoffs of using AWS for your project. 
 
+If you are intersted in reading and writing files to the cloud while working in your local VS Code then this setup is for you. 
+
 ### What is S3?
 S3 is AWS's file storage solution. S3 stands for "Scalable Storage Solution," you can kind of think of it as a giant file storage system (like Finder on Mac or File Explorer on Window).
 

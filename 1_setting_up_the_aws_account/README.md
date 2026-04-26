@@ -1,4 +1,4 @@
-## SIADS 699: Setting up the Root User
+## SIADS 699: Download Setting up the Root User
 One person on the team will be the "Root User." This person's responsibilites will include:
 * Setting up the team's AWS accounts.
 * Maintaining responsibility for billing (ie you will supply your own credit card)
@@ -9,12 +9,17 @@ Whoever chooses to do this on your team doesn't need to be familiar with the clo
 ### Visual Follow Along
 This [Youtube Video](https://youtu.be/NhDYbskXRgc?si=wYFAvPrt7RrC4fX-&t=4775) (from 1:19:34 - 1:30:00) does a good job explaining the root user role, and how to set up other accounts with limited access.
 
-### Pre-Requisite
+### Pre-Requisites
 Before getting started you need the following:
 * An email address (your @umich.edu account will not be accepted by AWS)
 * A credit card
 
-### Step by Step Guide
+Also assuming this is your first time connecting AWS to your local VS code you'll need to download the AWS CLI interface from here:
+* https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html?
+
+![alt text](images/aws-cli.png)
+
+### Setting up your AWS account
 1. Go to https://aws.amazon.com/console/
 2. Click the Create Account button
 3. Enter your email
