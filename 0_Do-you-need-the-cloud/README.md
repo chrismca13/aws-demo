@@ -1,7 +1,8 @@
 ## SIADS 699 - Module 0: Is using AWS worth the effort?
 
 ### What is AWS?
-
+AWS is a Cloud Service Provider (CSP) that allows you to access compute power via the internet as opposed to paying for a physical machine. Competitors to AWS include Google's Google Cloud Platform (GCP) and Microsoft Azure. 
+Most companies expect their data scientists to be familiar with working in the cloud — now is a great time to start exploring the tool and all that it offers
 
 ### What is S3?
 S3 is AWS's file storage solution. S3 stands for "Scalable Storage Solution," you can kind of think of it as a giant file storage system (like Finder on Mac or File Explorer on Windows).
