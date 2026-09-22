@@ -1,6 +1,6 @@
 ## SIADS 699: Getting Started in the Cloud
 
-One challenge a lot of teams encounter in their capstone project is sharing data. In the past we've seen teams send CSVs via slack, upload massive files to git, and some store their data in Google Drive. 
+One challenge a lot of capstone teams encounter in their capstone project is sharing data, model objects, and other artifacts that are essential to developing a machine learning project. In the past we've seen teams send CSVs via slack, upload massive files to git, and some have stored their data in Google Drive. 
 
 I think AWS is the best way to share data among your team. Here we'll discuss some benefits of doing so, while also acknowledging some tradeoffs of using AWS for your project. 
 
